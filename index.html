@@ -4,10 +4,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>AskWave — Just talk.</title>
-<meta name="description" content="AskWave is a voice-first AI assistant for customer-facing reps. Ask questions over your documents and book appointments — just by talking." />
+<meta name="description" content="AskWave is an AI front-desk assistant for salons, spas, and clinics. It answers client questions and books appointments by voice — straight from your own price list." />
 <!-- Open Graph (link previews when shared on WhatsApp/Slack/etc.) -->
-<meta property="og:title" content="AskWave — Just talk." />
-<meta property="og:description" content="Voice-first AI assistant. Ask over your docs, book actions, just by talking." />
+<meta property="og:title" content="AskWave — Your front desk, on voice." />
+<meta property="og:description" content="An AI front-desk assistant for salons, spas & clinics. Answers clients and books appointments by voice, from your own docs." />
 <meta property="og:type" content="website" />
 <style>
   :root {
@@ -57,13 +57,18 @@
   /* Hero */
   .hero { text-align: center; padding: 56px 0 32px; }
   .hero h1 {
-    font-size: clamp(56px, 16vw, 120px);
-    font-weight: 800; letter-spacing: -3px; line-height: 0.92;
+    font-size: clamp(42px, 12vw, 88px);
+    font-weight: 800; letter-spacing: -2px; line-height: 0.96;
   }
   .hero h1 .dot { color: var(--violet); }
   .hero p.tag {
-    margin: 22px auto 0; max-width: 520px;
+    margin: 22px auto 0; max-width: 540px;
     font-size: clamp(16px, 4.5vw, 20px); color: var(--muted);
+  }
+  .hero .forwho {
+    display: inline-block; margin-top: 18px;
+    font-size: 13px; letter-spacing: 0.5px; color: var(--muted);
+    border: 1px solid rgba(255,255,255,0.14); border-radius: 999px; padding: 7px 16px;
   }
 
   /* Download */
@@ -146,8 +151,9 @@
     <header><span class="pill">AskWave</span></header>
 
     <section class="hero">
-      <h1>Just<br />talk<span class="dot">.</span></h1>
-      <p class="tag">A voice-first AI assistant for customer-facing reps. Ask questions over your documents and book appointments — just by speaking.</p>
+      <h1>Your front desk,<br />on voice<span class="dot">.</span></h1>
+      <p class="tag">AskWave answers your clients' questions and books appointments by voice — straight from your own price list and service menu.</p>
+      <span class="forwho">For salons, spas, dental &amp; aesthetic clinics</span>
 
       <div class="cta">
         <!-- TODO: replace # with your APK download URL (e.g. a GitHub Releases link) -->
@@ -162,18 +168,18 @@
     <section class="features">
       <div class="card">
         <div class="emoji">🎙️</div>
-        <h3>Speak, don't type</h3>
-        <p>Ask in your own words. AskWave transcribes on-device and answers instantly.</p>
-      </div>
-      <div class="card">
-        <div class="emoji">📚</div>
-        <h3>Answers from your docs</h3>
-        <p>Upload PDFs and guides. Answers are grounded in your content, with sources.</p>
+        <h3>Instant answers</h3>
+        <p>Pricing, hours, services, prep instructions — clients just ask, and AskWave answers in seconds.</p>
       </div>
       <div class="card">
         <div class="emoji">📅</div>
-        <h3>Take action</h3>
-        <p>Book appointments by voice — with a confirmation step before anything happens.</p>
+        <h3>Voice booking</h3>
+        <p>“Book Sarah for Tuesday at 3” — done. Every booking gets a quick confirm before it’s saved.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">✅</div>
+        <h3>Always accurate</h3>
+        <p>It only answers from the price list and docs you upload — no made-up information.</p>
       </div>
     </section>
 
